@@ -43,7 +43,6 @@ async def on_ready():
     await bot.change_presence(activity=discord.Streaming(name="Tutorials", url="http://www.twitch.tv/accountname"))
     print('My Ready is Body')
 
-
 @bot.listen()
 async def on_message(message):
     if "tutorial" in message.content.lower():
