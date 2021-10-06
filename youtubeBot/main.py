@@ -9,6 +9,8 @@ bot = commands.Bot(command_prefix='>', description="This is a Helper Bot")
 
 @bot.command()
 async def ping(ctx):
+    
+    
     await ctx.send('pong')
 
 @bot.command()
